@@ -1,0 +1,436 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    
+}
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+.btn-link-btn{
+    background-color: red;
+    border:1px solid red;
+    color:white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    justify-self: end;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+  }
+.logo-link{
+    text-decoration: none;
+    align-items: center;
+}
+.nav-links{
+    align-items: center;
+}
+.ul-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.ul-links li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    color: black;   
+}
+.ul-links li a.active{
+    text-decoration: underline;
+    margin: 10px;
+}
+.navbar-fixed{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.hero{
+    margin:20px;
+    align-items: center;
+
+}
+.hero-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.hero-header{
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+}
+.hero-header h1{
+    font-family: "Averta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: black;
+    padding: 10px;
+}
+.hero-paragraph{
+    font-family: "Averta", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.6;
+}
+.hero-btns,.hire-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+.hero-btn1{
+    background-color: red;
+    border:1px solid red;
+    color:white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    justify-self: end;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+}
+.hero-btn2{
+    background: color rgb(73, 71, 71);;
+    border:1px solid rgb(73, 71, 71);
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    justify-self: end;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+}
+.hero-image{
+    align-self: center;
+}
+.trained{
+    background-image: url("https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+.trained-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.trained-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+}
+.trained-text{
+    text-align: cneter;
+    align-items: center;
+}
+.trained-text h1{
+    font-family: "Averta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 5px;
+}
+.trained-text h1 span{
+    color: rgb(250, 9, 9);
+}
+.trained-text h3{
+    font-family: "Averta", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 5px;
+}
+.trained-text p{
+    font-family: "Averta", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    padding: 5px;
+    color:gray;
+}
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.germany,.england,.india,.nigeria,.usa{
+    display: flex;
+    align-self: center;
+    background-color: white;
+}
+.circle{
+    margin: 10px;
+}
+.circle-image{
+    align-self: center;
+}
+.skills{
+  margin:auto;
+  max-width: 1170px;  
+}
+.skills-div{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.skills-need{
+    margin: 10px;
+}
+.skills-heading{
+    align-items: flex-start;
+}
+.skills-heading h1{
+    font-family: "Averta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px;
+}
+.skills-heading h1 span{
+    color:rgb(250, 9, 9);
+}
+.skills-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.skills-section div{
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    cursor: crosshair;
+
+}
+.designers,.developers,.engineers,.frontend{
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: crosshair;
+    box-shadow: 10px 10px 5px 0px rgba(196, 195, 195, 0.75);
+}
+.designers:hover,.developers:hover,.engineers:hover,.frontend:hover{
+    transform: scale(2);
+    transform-origin: top;
+    transition: transform infinite;
+}
+.designer P,.developers p,.engineers p,.frontend p{
+    font-family: "Averta",sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color:rgb(73, 71, 71);
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+}
+.skill-work{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill-work-heading{
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.skill-work-heading h1{
+    font-size: 16px;
+    font-family: "averta", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.6;
+}
+.skill-work-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.github{
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    cursor: crosshair;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(196, 195, 195, 0.75);
+}
+.github:hover,.microsoft,.reskill,.flutterwave,.google,.career{
+    transform: scale(2);
+    transform-origin: top;
+    transition: transform infinite;
+}
+.github P,.microsoft p,.reskill p,.flutterwave p,.google p,.career p{
+    font-family: "Averta",sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color:rgb(73, 71, 71);
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+}
+.hire{
+    margin:auto;
+    max-width: 1170px;
+}
+.hire-container{
+    background-color: rgb(255, 248, 229);
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
+}
+.hire-heading{
+    align-items: center;
+    justify-items: center;
+}
+.hire-heading h1{
+    font-size: 16px;
+    font-family: "averta", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6;
+}
+.hire-heading h1 span{
+    color: rgb(250, 9, 9);
+}
+.hire-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.referral,.recruiter,.partner,.contract{
+    place-items: center;
+    padding: 15px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+}
+.convert{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 15px;
+    place-items: center;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+}
+.footer{
+    background-color: black;
+    margin: 20px;
+}
+.footy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+.footer-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo{
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-logo img{
+    padding: 10px;
+}
+.social-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+.social-footer a{
+    cursor: pointer;
+}
+.social-footer img{
+    padding-right: 15px;
+    width: 30px;
+}
+.footer-class2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.footer-paragraph{
+    align-items: flex-start;
+    text-align: left;
+}
+.footer-paragraph p{
+    font-size: 16px;
+    font-family: "averta",sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+.footer-link{
+    text-align: right;
+}
+.footer-link a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-link a p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+@media screen and (max-width:766px){
+    .ul-links{
+        display: none;
+    }
+}
